@@ -24,7 +24,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = ru.mirea.linnik.audiorecord.MainActivity.class.getSimpleName();
+    private static final String TAG = MainActivity.class.getSimpleName();
     private static final int REQUEST_CODE_PERMISSION = 100;
     private String[] PERMISSIONS = {
             Manifest.permission.WRITE_EXTERNAL_STORAGE,

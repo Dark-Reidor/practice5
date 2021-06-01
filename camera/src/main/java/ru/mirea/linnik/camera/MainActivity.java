@@ -23,7 +23,7 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_CODE_PERMISSION_CAMERA = 100;
-    final String TAG = ru.mirea.linnik.camera.MainActivity.class.getSimpleName();
+    private final String TAG = MainActivity.class.getSimpleName();
     private ImageView imageView;
     private static final int CAMERA_REQUEST = 0;
     private boolean isWork = false;
@@ -103,5 +103,3 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
-
